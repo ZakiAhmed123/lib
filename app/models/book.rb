@@ -1,4 +1,5 @@
 class Book < ActiveRecord::Base
 belongs_to :author
-validates :title, :author, :price,:photo_id, presence: true
+attachment :photo
+validates :title, :author, :price, presence: true
 end

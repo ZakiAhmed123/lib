@@ -84,3 +84,29 @@ justify-content: center;
 background-color: #F7E7CE;
 padding:15px;
 }
+
+.newform p{
+  font-size: 25px;
+  font-family: Arial;
+  margin:0px;
+}
+.newform {
+  background-color: white;
+  width: 600px;
+  height:370px;
+}
+
+.submit {
+  background-color: #69998D;
+  font-size:  50px;
+  font-family: Arial;
+  width:400px;
+  height:80px;
+}
+
+.deletebttn {
+  font-family: Arial;
+  color:red;
+  font-size: 20px;
+  
+}

@@ -17,7 +17,7 @@ class BooksController < ApplicationController
     # set the values
     @book.title = params[:book][:title]
     @book.author_id = params[:book][:author_id]
-    @book.photo_id = params[:book][:photo_id]
+    @book.photo = params[:book][:photo]
     @book.price = params[:book][:price]
     # save it
     if @book.save
@@ -57,5 +57,6 @@ class BooksController < ApplicationController
       # redirect away
       redirect_to root_path
     end
+
 
 end
